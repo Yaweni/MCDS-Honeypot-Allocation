@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\perfect_info">
+      <UniqueIdentifier>{3076707f-2e57-44b1-a386-72cf52d7050b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\include">
+      <UniqueIdentifier>{49b6b320-453b-4db4-aaba-e46d2c36ca34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamegraph.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGameLP.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueFunction.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_profile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionGenerator.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintGenerators.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="best_responses.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BestResponses.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OracledStageGameLP.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SubproblemOracles.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="global_br.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_osposg.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dualize.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="perfect_info\main.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackerOracle.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="DefenderOracle.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProblem.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="solver.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="TermModifier.cpp">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClCompile>
+    <ClCompile Include="hsvi.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gamegraph.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGameLP.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueFunction.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_profile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionGenerator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintGenerators.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="best_responses.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BestResponses.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="OracledStageGameLP.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SubproblemOracles.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="global_br.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackerOracle.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenderOracle.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProblem.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="solver.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="TermModifier.h">
+      <Filter>Fichiers sources\perfect_info</Filter>
+    </ClInclude>
+    <ClInclude Include="cpptoml.h">
+      <Filter>Fichiers sources\include</Filter>
+    </ClInclude>
+    <ClInclude Include="hsvi.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="matplolibcpp.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\sum1\plots\process_new.py" />
+  </ItemGroup>
+</Project>
